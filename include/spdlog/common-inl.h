@@ -13,7 +13,7 @@
 namespace spdlog {
 namespace level {
 
-#if __cplusplus >= 201703L
+#if __cplusplus >= 201402L
 constexpr
 #endif
 static string_view_t level_string_views[] SPDLOG_LEVEL_NAMES;
